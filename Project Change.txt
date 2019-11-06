@@ -1,0 +1,1 @@
+git checkout -b master_v3.0.0 && git commit --allow-empty -am  "all v3.0.0 project code" && git remote add pluralsight_v5.0.0 https://github.com/pluralsight-projects/Android-CandyCodedApplication && git checkout master && git fetch pluralsight_v5.0.0 master && git reset --hard FETCH_HEAD && git push origin master --force
